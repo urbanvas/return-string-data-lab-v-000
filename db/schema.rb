@@ -42,6 +42,8 @@ ActiveRecord::Schema.define(version: 20160125172450) do
     t.integer  "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "description"
+    t.integer  "inventory"
   end
 
 end
